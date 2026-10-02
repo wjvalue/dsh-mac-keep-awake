@@ -1,5 +1,7 @@
 # dsh-mac-keep-awake
 
+> English: [README.en.md](./README.en.md)
+
 会话进行时不让 Mac 空闲休眠的 DeepSeek Harness 插件。
 
 > While any DSH session is running, hold a macOS power assertion so the machine
