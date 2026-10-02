@@ -1,0 +1,9 @@
+# dsh-mac-keep-awake bundle patch.
+#
+# One insert row mounts the Host half. There is no browser half: the assertion
+# is a Host-process concern, and a client-side toggle would need a Remote
+# namespace the plugin does not have. Configure it in the profile patch instead.
+- insert:
+    - id: keep-awake
+      name: 'dsh-mac-keep-awake'
+      config: {}
